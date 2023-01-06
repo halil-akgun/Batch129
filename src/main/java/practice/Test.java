@@ -5,17 +5,11 @@ import java.util.*;
 public class Test {
     public static void main(String[] args) {
 
-        String a="madam";
-        String arr[] = a.toLowerCase().split("");
-        List<String> crr = Arrays.asList(arr);
-        List<String> brr = new ArrayList<>();
-        for (String w : arr) {
-            brr.add(w);
-        }
-        Collections.reverse(brr);
+        String names[] = {"name1", "name2", "name3"};
+        int select = (int) (Math.random() * (names.length));
+        System.out.println(names[select]);
 
-        String result = (brr.equals(crr)) ? "Yes" : "No";
-        System.out.println(result);
+
 
     }
 }
