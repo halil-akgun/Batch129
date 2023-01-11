@@ -20,7 +20,7 @@ public class Q02_TasKagitMakas {
             sayac++;
             System.out.println(sayac + ". seçimi girin: \nTaş \nKağıt \nMakas");
             String oyuncuTahmini = input.next().toLowerCase().trim();
-            if (!(oyuncuTahmini.equals("tas") || oyuncuTahmini.equals("kagit") || oyuncuTahmini.equals("makas"))) {
+            if (!(oyuncuTahmini.equals("taş") || oyuncuTahmini.equals("kağıt") || oyuncuTahmini.equals("makas"))) {
                 System.out.println("Geçerli bir tahmin giriniz");
                 sayac--;
                 continue;
