@@ -18,7 +18,6 @@ public class Sarkuteri {
             System.out.println("\t" + urunKodu.get(i) + "\t\t" + urun.get(i) + "\t\t" + fiyat.get(i) + "$");
         }
         Secim.secim(fiyat, urun, urunKodu);
-        Manav.
 
     }
 }
