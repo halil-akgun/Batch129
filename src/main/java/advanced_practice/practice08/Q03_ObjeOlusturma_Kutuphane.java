@@ -10,5 +10,6 @@ public class Q03_ObjeOlusturma_Kutuphane {
         obj2.kitapBilgileri();
         obj2.sayfaSayisi=405;
         obj2.kitapBilgileri();
+        System.out.println("obj2.toString() = " + obj2.toString());
     }
 }
