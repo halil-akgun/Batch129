@@ -19,7 +19,7 @@ package day26overriding;
   11- final metodlar ve statik metodlar override edilemezler.
   12- override yapabilmek için inheritance (parent-child) şarttır.
   13- method overloading Compile time polymorphism, method overriding Run time polymorphism'dir
-  14- method overloading static polymorphism, method overriding static polymorphism'dir
+  14- method overloading static polymorphism, method overriding dynamic polymorphism'dir
 
          1) Final kelimesini "Variable"larda kullanabilirsiniz.
                             ->final variable ise

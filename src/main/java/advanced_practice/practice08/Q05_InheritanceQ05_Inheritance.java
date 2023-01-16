@@ -7,7 +7,7 @@ public class Q05_InheritanceQ05_Inheritance {
     }
 
     static void daireAlani(int r) {
-        Daire daire = new Daire();
-        System.out.println(daire.carpma(daire.piSayisi, daire.karesiniAl(r)));
+        Daire daireObj = new Daire();
+        System.out.println(daireObj.carpma(daireObj.piSayisi, daireObj.karesiniAl(r)));
     }
 }
