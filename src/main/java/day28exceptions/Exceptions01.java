@@ -42,7 +42,7 @@ public class Exceptions01 {
         System.out.println("You are here");
     }
 
-    //"Exception Handlin" de if-else kullanilmaz. Bakiniz 6.Note
+    //"Exception Handling" de if-else kullanilmaz. Bakiniz 6.Note
     public static void divide2(int a, int b){
         if(b==0){
             System.out.println("Do not divide by zero");
