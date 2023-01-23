@@ -25,7 +25,7 @@ public class Exceptions02 {
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
-
+        System.out.println("deneme");
     }
 
     //"throw" keyword bir method'un body'si icinde istedigimiz yerde, istedigimiz kosullar, istedigimiz kadar icin Exception atmamizi saglar.
