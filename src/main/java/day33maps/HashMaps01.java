@@ -84,7 +84,7 @@ public class HashMaps01 {
         System.out.println("entries = " + entries); // [null=15000000, Myanmar=33000000, USA=500000000, Germany=86000000]
 
         //Map'i Set'e çevirdiğimizde Set'in bütün özelliklerini kullanabiliriz. Mesela loop gibi.
-        //entrySet() methodunu kullandığınzda elde ettiğiniz Set'in elemanları "<Map.Entry<String,Integer>" şeklinde bir Map olur. Bu yüzden
+        //entrySet() methodunu kullandığınzda elde ettiğiniz Set'in elemanları "<Map.Entry<String,Integer>>" şeklinde bir Map olur. Bu yüzden
         //elemanlar için Map methodları kullanılabilir
 
 
@@ -95,7 +95,6 @@ public class HashMaps01 {
                 sum2 = w.getValue() + w.getKey().length();
             System.out.println(sum2);
         }
-
 
     }
 }

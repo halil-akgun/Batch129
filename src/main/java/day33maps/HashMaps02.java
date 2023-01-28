@@ -23,8 +23,5 @@ public class HashMaps02 {
             }
         }
         System.out.println(wordsMap);
-
-//        Integer numOfOccurrence = wordsMap.getOrDefault(words[i], 0);
-//        wordsMap.put(words[i], ++numOfOccurrence);
     }
 }
