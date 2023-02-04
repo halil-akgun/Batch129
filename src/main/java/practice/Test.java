@@ -7,8 +7,11 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-public class Test {
-
+public class Test implements B{
+    public static void main(String[] args) {
+        Test q = new Test();
+        q.a();
+    }
 
 }
 
