@@ -9,8 +9,7 @@ import java.util.*;
 
 public class Test implements B{
     public static void main(String[] args) {
-        Test q = new Test();
-        q.a();
+
     }
 
 }
