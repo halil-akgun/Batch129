@@ -56,6 +56,5 @@ public class Lambda03 {
                 findFirst().
                 get();
         System.out.println("list2 = " + result5);
-
     }
 }
