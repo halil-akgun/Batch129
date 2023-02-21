@@ -38,7 +38,7 @@ public class TreeSet01 {
 
         System.out.println("ts.last() = " + ts.last()); // 64
 
-        System.out.println("ts.floor() = " + ts.floor(15));  //12 ==>15 elemanlardan biri degil o yuzden 15 den bir onceki eleman yazdirildi
+        System.out.println("ts.floor(15) = " + ts.floor(15));  //12 ==>15 elemanlardan biri degil o yuzden 15 den bir onceki eleman yazdirildi
 
         System.out.println("ts.floor(12) = " + ts.floor(12)); //12 ==> 12 elemanlardan biri o yuzden 12 direkt yazdirildi
 

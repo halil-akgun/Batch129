@@ -1,7 +1,5 @@
 package day37lambda;
 
-import day36lambda.Utils;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -10,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class Lambda02 {
     /*
-        AnyMath: Vereceğimiz şarta bağlı olarak Stream içerisinde gezinir ve
+        AnyMatch: Vereceğimiz şarta bağlı olarak Stream içerisinde gezinir ve
         herhangi bir elemanla eşleşme durumunda true dönecektir.
 
         AllMatch: Verilen şarta göre Stream içerisindeki tüm elemanların

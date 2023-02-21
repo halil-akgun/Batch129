@@ -23,7 +23,7 @@ public class Course {
         this.numberOfStudents = numberOfStudents;
     }
 
-    //3)getters() and setter()
+    //3)getters() and setters()
 
     public String getSeason() {
         return Season;

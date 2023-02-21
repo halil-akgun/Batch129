@@ -1,4 +1,4 @@
-package day32collections;
+package day32collections.reviewday32collections;
 
 import java.util.Deque;
 import java.util.LinkedList;
