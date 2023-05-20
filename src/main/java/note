@@ -1,1 +1,15 @@
-//   assert food != null;  // if food is null; throws AssertionError
+assert food != null;  // if food is null; throws AssertionError
+
+----------------------------------------------------------------
+
+int a = 4;
+System.out.print((a >> 1)+(a << 2) );
+
+output: 18
+
+>> 1 : 1 kere 2'ye bol
+<< 2 : 2 kere 2'yle carp
+
+----------------------------------------------------------------
+
+
