@@ -10,6 +10,31 @@ output: 18
 >> 1 : 1 kere 2'ye bol
 << 2 : 2 kere 2'yle carp
 
+ornek:
+int bx = 13; // 1101b >> 1; 0110 (0*2^3 + 1*2^2 + 1*2^1 + 0*2^0)
+butun rakamlar saga kayar (en sagdaki rakam gider)
+solda olusan bosluga 0 gelir
+
 ----------------------------------------------------------------
 
+int a = 13;  // 1101
+int b = 7;   // 0111
+a & b ==> 5  // ayni basamaklarda 1 varsa onlar hesaplaniyor (1*2^2 + 1*2^0 = 5)(sagdan 1. ve 3. basamaklar)
+a ^ b ==> 10 // ayni basamaklarda farkli sayilar varsa o basamaklarda
+             // 1 var kabul edilerek hesaplaniyor (1*2^3 + 1*2^1 = 10) (sagdan 2. ve 4. basamaklar)
+
+----------------------------------------------------------------
+
+// The number 26, in decimal
+int decVal = 26;
+//  The number 26, in hexadecimal
+int hexVal = 0x1a;
+// The number 26, in binary
+int binVal = 0b11010;
+
+double d1 = 123.4;
+// same value as d1, but in scientific notation
+double d2 = 1.234e2; // e2: 10 uzeri 2
+
+----------------------------------------------------------------
 
